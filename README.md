@@ -25,4 +25,4 @@ All the config parameters and the hyperparameters of the model can be specified 
 
 <b>Train the model</b>
 ```
-python3 train_cnn.py config.yaml
+python3 main.py config.yaml
