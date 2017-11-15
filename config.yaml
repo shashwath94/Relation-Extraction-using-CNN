@@ -1,0 +1,9 @@
+path_vectors: /home/shashwath/ldt/Li-wiki201308_filtered/structured_linear/skip/100d/
+path_dataset: ./
+gpu: 0
+batch_size: 24
+epochs: 25
+test: False
+embed_dim: 100
+freeze_embedding: False
+distance_embed_dim: 50
