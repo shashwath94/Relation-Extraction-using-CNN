@@ -1,5 +1,5 @@
 path_vectors: /home/shashwath/ldt/Li-wiki201308_filtered/structured_linear/skip/100d/
-path_dataset: ./
+path_dataset: ./data/
 gpu: 0
 batch_size: 24
 epochs: 25

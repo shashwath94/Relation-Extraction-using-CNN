@@ -75,9 +75,7 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         path_config = sys.argv[1]
     else:
-        print("usage: python3 -m vsmlib.benchmarks.relation_classification <config file>")
-        print("config file example can be found at ")
-        print("https://github.com/undertherain/vsmlib/blob/master/vsmlib/benchmarks/relation_classification/config.yaml")
+        print("command format : python3 main.py config.yaml")
         
     with open(path_config, 'r') as ymlfile:
         cfg = yaml.load(ymlfile)
